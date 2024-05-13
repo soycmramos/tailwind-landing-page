@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/soycmramos/tailwind-landing-page.git",
+  "author": "cmramos <carlosmarioramos34@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "css": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

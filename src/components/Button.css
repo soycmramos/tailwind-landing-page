@@ -1,5 +1,6 @@
-.button {
-    @apply py-2 px-4 rounded outline-none text-gray-700 border border-gray-500 hover:border-gray-600 active:border-gray-700 font-semibold text-center transition-all
+@layer components {
+  .button {
+    @apply py-1.5 px-4 rounded-sm outline-none text-gray-700 border border-gray-500 hover:border-gray-600 active:border-gray-700 font-semibold text-center transition-all
   }
 
   .button.button-success {
@@ -23,43 +24,44 @@
   }
 
   /* Outline */
-  .button.button-success-outline {
+  .button.button-outline-success {
     @apply text-green-700 bg-transparent hover:bg-green-300 active:bg-green-400 border-green-300 active:border-green-400
   }
 
-  .button.button-info-outline {
+  .button.button-outline-info {
     @apply text-blue-700 bg-transparent hover:bg-blue-300 active:bg-blue-400 border-blue-300 active:border-blue-400
   }
 
-  .button.button-warning-outline {
+  .button.button-outline-warning {
     @apply text-yellow-700 bg-transparent hover:bg-yellow-300 active:bg-yellow-400 border-yellow-300 active:border-yellow-400
   }
 
-  .button.button-danger-outline {
+  .button.button-outline-danger {
     @apply text-red-700 bg-transparent hover:bg-red-300 active:bg-red-400 border-red-300 active:border-red-400
   }
 
-  .button.button-gray-outline {
-    @apply text-gray-700 bg-transparent hover:bg-gray-300 active:bg-gray-400 border-gray-300 active:border-gray-400
+  .button.button-outline-gray {
+    @apply text-gray-700 bg-gray-200 hover:bg-gray-300 active:bg-gray-400 border-gray-300 active:border-gray-400
   }
 
   /* Light */
-  .button.button-success-light {
+  .button.button-light-success {
     @apply text-green-700 bg-green-300 hover:bg-green-400 active:bg-green-500 border-green-300 hover:border-green-400 active:border-green-500
   }
 
-  .button.button-info-light {
+  .button.button-light-info {
     @apply text-blue-700 bg-blue-300 hover:bg-blue-400 active:bg-blue-500 border-blue-300 hover:border-blue-400 active:border-blue-500
   }
 
-  .button.button-warning-light {
+  .button.button-light-warning {
     @apply text-yellow-700 bg-yellow-300 hover:bg-yellow-400 active:bg-yellow-500 border-yellow-300 hover:border-yellow-400 active:border-yellow-500
   }
 
-  .button.button-danger-light {
+  .button.button-light-danger {
     @apply text-red-700 bg-red-300 hover:bg-red-400 active:bg-red-500 border-red-300 hover:border-red-400 active:border-red-500
   }
 
-  .button.button-gray-light {
+  .button.button-light-gray {
     @apply text-gray-700 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 border-gray-300 hover:border-gray-400 active:border-gray-500
   }
+}
